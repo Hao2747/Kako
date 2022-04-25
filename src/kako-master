@@ -120,14 +120,7 @@ def main(configuration_file, simulation_path):
                 configuration=configuration,
                 results=results
             )
-            log.info('Current Number of Attack: %d',idx + 1)
-            if (idx >= 2):
-                log.info('[ALERT] More than 3 attackers are attacking the system')
-            # print("Debug Config: ", configuration)
-            # print("Debug Manifest: ", manifest)
-            # print("Debug Sim: ", simulations)
-
-
+      
 
             
         except AttributeError as err:
@@ -143,8 +136,6 @@ def main(configuration_file, simulation_path):
         while True:
             # Ensure simulations are alive.
             for idx, process in simulations.items():
-                # log.info("Sim Item : %d",idx)
-                # log.info(simulations.items())
                 if not process.is_alive():
                     try:
                         log.error(
