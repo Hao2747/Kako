@@ -1,0 +1,211 @@
+2022-04-23 14:05:35,744 - 4175 - [INFO] Setting up a queue for results processing
+2022-04-23 14:05:35,756 - 4175 - [INFO] Setting up results processor
+2022-04-23 14:05:35,758 - 4175 - [INFO] Attempting to load simulations from .
+2022-04-23 14:05:35,758 - 4177 - [INFO] Setting up File results / output processor
+2022-04-23 14:05:35,758 - 4175 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:05:35,778 - 4175 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:05:35,780 - 4175 - [INFO] Current Number of Attack: 1
+2022-04-23 14:05:35,780 - 4175 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:05:35,780 - 4178 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:06:01,160 - 4178 - [INFO] Received connection from 127.0.0.1:54224
+2022-04-23 14:09:54,315 - 4440 - [INFO] Setting up a queue for results processing
+2022-04-23 14:09:54,327 - 4440 - [INFO] Setting up results processor
+2022-04-23 14:09:54,329 - 4440 - [INFO] Attempting to load simulations from .
+2022-04-23 14:09:54,329 - 4442 - [INFO] Setting up File results / output processor
+2022-04-23 14:09:54,329 - 4440 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:09:54,349 - 4440 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:09:54,350 - 4440 - [INFO] Current Number of Attack: 1
+2022-04-23 14:09:54,350 - 4440 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:09:54,350 - 4440 - [INFO] dict_items([(0, <Simulation(Simulation-2, started)>)])
+2022-04-23 14:09:54,351 - 4443 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:10:42,017 - 4541 - [INFO] Setting up a queue for results processing
+2022-04-23 14:10:42,028 - 4541 - [INFO] Setting up results processor
+2022-04-23 14:10:42,030 - 4541 - [INFO] Attempting to load simulations from .
+2022-04-23 14:10:42,030 - 4541 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:10:42,030 - 4543 - [INFO] Setting up File results / output processor
+2022-04-23 14:10:42,048 - 4541 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:10:42,049 - 4541 - [INFO] Current Number of Attack: 1
+2022-04-23 14:10:42,050 - 4541 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:10:42,050 - 4541 - [INFO] dict_items([(0, <Simulation(Simulation-2, started)>)])
+2022-04-23 14:10:42,050 - 4544 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:11:23,424 - 4664 - [INFO] Setting up a queue for results processing
+2022-04-23 14:11:23,436 - 4664 - [INFO] Setting up results processor
+2022-04-23 14:11:23,438 - 4664 - [INFO] Attempting to load simulations from .
+2022-04-23 14:11:23,438 - 4666 - [INFO] Setting up File results / output processor
+2022-04-23 14:11:23,438 - 4664 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:11:23,458 - 4664 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:11:23,459 - 4664 - [INFO] Current Number of Attack: 1
+2022-04-23 14:11:23,459 - 4664 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:11:23,459 - 4667 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:11:37,880 - 4667 - [INFO] Received connection from 127.0.0.1:54234
+2022-04-23 14:13:49,254 - 4807 - [INFO] Setting up a queue for results processing
+2022-04-23 14:13:49,266 - 4807 - [INFO] Setting up results processor
+2022-04-23 14:13:49,268 - 4807 - [INFO] Attempting to load simulations from .
+2022-04-23 14:13:49,268 - 4809 - [INFO] Setting up File results / output processor
+2022-04-23 14:13:49,268 - 4807 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:13:49,296 - 4807 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:13:49,297 - 4807 - [INFO] Current Number of Attack: 1
+2022-04-23 14:13:49,298 - 4807 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:13:49,298 - 4810 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:13:49,298 - 4807 - [INFO] Sim Item : <Simulation(Simulation-2, started)>
+2022-04-23 14:14:49,358 - 4807 - [INFO] Sim Item : <Simulation(Simulation-2, stopped[1])>
+2022-04-23 14:14:49,359 - 4807 - [ERROR] simulation Linux Generic Telnet Simulation has died, respawning
+2022-04-23 14:14:49,361 - 4862 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:15:37,752 - 4955 - [INFO] Setting up a queue for results processing
+2022-04-23 14:15:37,763 - 4955 - [INFO] Setting up results processor
+2022-04-23 14:15:37,765 - 4957 - [INFO] Setting up File results / output processor
+2022-04-23 14:15:37,765 - 4955 - [INFO] Attempting to load simulations from .
+2022-04-23 14:15:37,765 - 4955 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:15:37,788 - 4955 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:15:37,789 - 4955 - [INFO] Current Number of Attack: 1
+2022-04-23 14:15:37,790 - 4955 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:15:37,790 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:15:37,790 - 4958 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:15:47,177 - 4958 - [INFO] Received connection from 127.0.0.1:54244
+2022-04-23 14:16:10,471 - 4958 - [INFO] Received connection from 127.0.0.1:54246
+2022-04-23 14:16:37,850 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:16:55,031 - 4958 - [INFO] Received connection from 127.0.0.1:54248
+2022-04-23 14:17:18,342 - 4958 - [INFO] Publishing results from interaction to queue
+2022-04-23 14:17:18,342 - 4957 - [INFO] 1 interaction captures in the queue
+2022-04-23 14:17:18,343 - 4958 - [INFO] Client force disconnected.
+2022-04-23 14:17:23,799 - 4958 - [INFO] Received connection from 127.0.0.1:54250
+2022-04-23 14:17:37,910 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:18:37,971 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:19:38,031 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:20:38,043 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:21:38,104 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:22:38,142 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:23:38,157 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:24:38,209 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:25:38,261 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:26:38,321 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:27:38,369 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:28:38,389 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:29:38,447 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:30:38,507 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:31:38,568 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:32:38,609 - 4955 - [INFO] Sim Item : 0
+2022-04-23 14:33:31,373 - 5369 - [INFO] Setting up a queue for results processing
+2022-04-23 14:33:31,384 - 5369 - [INFO] Setting up results processor
+2022-04-23 14:33:31,386 - 5369 - [INFO] Attempting to load simulations from .
+2022-04-23 14:33:31,386 - 5371 - [INFO] Setting up File results / output processor
+2022-04-23 14:33:31,386 - 5369 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:33:31,406 - 5369 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:33:31,407 - 5369 - [INFO] Current Number of Attack: 1
+2022-04-23 14:33:31,407 - 5369 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:33:31,408 - 5372 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:33:39,292 - 5421 - [INFO] Setting up a queue for results processing
+2022-04-23 14:33:39,304 - 5421 - [INFO] Setting up results processor
+2022-04-23 14:33:39,305 - 5421 - [INFO] Attempting to load simulations from .
+2022-04-23 14:33:39,306 - 5423 - [INFO] Setting up File results / output processor
+2022-04-23 14:33:39,306 - 5421 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:33:39,330 - 5421 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:33:39,331 - 5421 - [INFO] Current Number of Attack: 1
+2022-04-23 14:33:39,332 - 5421 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:33:39,332 - 5424 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:33:55,101 - 5506 - [INFO] Setting up a queue for results processing
+2022-04-23 14:33:55,113 - 5506 - [INFO] Setting up results processor
+2022-04-23 14:33:55,114 - 5506 - [INFO] Attempting to load simulations from .
+2022-04-23 14:33:55,114 - 5508 - [INFO] Setting up File results / output processor
+2022-04-23 14:33:55,115 - 5506 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:33:55,136 - 5506 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:33:55,137 - 5506 - [INFO] Current Number of Attack: 1
+2022-04-23 14:33:55,137 - 5506 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:33:55,138 - 5509 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:34:22,594 - 5561 - [INFO] Setting up a queue for results processing
+2022-04-23 14:34:22,605 - 5561 - [INFO] Setting up results processor
+2022-04-23 14:34:22,607 - 5561 - [INFO] Attempting to load simulations from .
+2022-04-23 14:34:22,608 - 5561 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:34:22,608 - 5563 - [INFO] Setting up File results / output processor
+2022-04-23 14:34:22,626 - 5561 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:34:22,627 - 5561 - [INFO] Current Number of Attack: 1
+2022-04-23 14:34:22,628 - 5561 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:34:22,628 - 5564 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:35:22,667 - 5561 - [ERROR] simulation Linux Generic Telnet Simulation has died, respawning
+2022-04-23 14:35:22,669 - 5637 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:45:34,956 - 5720 - [INFO] Setting up a queue for results processing
+2022-04-23 14:45:34,969 - 5720 - [INFO] Setting up results processor
+2022-04-23 14:45:34,971 - 5720 - [INFO] Attempting to load simulations from .
+2022-04-23 14:45:34,971 - 5722 - [INFO] Setting up File results / output processor
+2022-04-23 14:45:34,971 - 5720 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-23 14:45:34,992 - 5720 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-23 14:45:34,993 - 5720 - [INFO] Current Number of Attack: 1
+2022-04-23 14:45:34,993 - 5720 - [INFO] Monitoring enabled every 60 seconds
+2022-04-23 14:45:34,993 - 5723 - [INFO] Setting up listener on TCP/2323
+2022-04-23 14:45:40,289 - 5723 - [INFO] Received connection from 127.0.0.1:54284
+2022-04-23 14:45:44,512 - 5723 - [INFO] Received connection from 127.0.0.1:54286
+2022-04-23 17:08:03,346 - 5723 - [INFO] Publishing results from interaction to queue
+2022-04-23 17:08:03,346 - 5722 - [INFO] 1 interaction captures in the queue
+2022-04-23 17:08:03,346 - 5723 - [INFO] Client force disconnected.
+2022-04-24 17:36:32,484 - 594 - [INFO] Setting up a queue for results processing
+2022-04-24 17:36:32,500 - 594 - [INFO] Setting up results processor
+2022-04-24 17:36:32,504 - 596 - [INFO] Setting up File results / output processor
+2022-04-24 17:36:32,507 - 594 - [INFO] Attempting to load simulations from .
+2022-04-24 17:36:32,508 - 594 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-24 17:36:32,551 - 594 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-24 17:36:32,553 - 594 - [INFO] Current Number of Attack: 1
+2022-04-24 17:36:32,554 - 597 - [INFO] Setting up listener on TCP/2323
+2022-04-24 17:36:32,554 - 594 - [INFO] Monitoring enabled every 60 seconds
+2022-04-24 17:36:33,974 - 597 - [INFO] Received connection from 127.0.0.1:45296
+2022-04-24 17:38:08,357 - 600 - [INFO] Setting up a queue for results processing
+2022-04-24 17:38:08,373 - 600 - [INFO] Setting up results processor
+2022-04-24 17:38:08,377 - 602 - [INFO] Setting up File results / output processor
+2022-04-24 17:38:08,380 - 600 - [INFO] Attempting to load simulations from .
+2022-04-24 17:38:08,381 - 600 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-24 17:38:08,424 - 600 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-24 17:38:08,426 - 600 - [INFO] Current Number of Attack: 1
+2022-04-24 17:38:08,427 - 600 - [INFO] Monitoring enabled every 60 seconds
+2022-04-24 17:38:08,428 - 603 - [INFO] Setting up listener on TCP/2323
+2022-04-24 17:39:22,556 - 613 - [INFO] Setting up a queue for results processing
+2022-04-24 17:39:22,590 - 613 - [INFO] Setting up results processor
+2022-04-24 17:39:22,598 - 615 - [INFO] Setting up File results / output processor
+2022-04-24 17:39:22,603 - 613 - [INFO] Attempting to load simulations from .
+2022-04-24 17:39:22,604 - 613 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-24 17:39:22,690 - 613 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-24 17:39:22,693 - 613 - [INFO] Current Number of Attack: 1
+2022-04-24 17:39:22,695 - 613 - [INFO] Monitoring enabled every 60 seconds
+2022-04-24 17:39:22,695 - 616 - [INFO] Setting up listener on TCP/2323
+2022-04-24 17:39:26,968 - 616 - [INFO] Received connection from 127.0.0.1:45298
+2022-04-24 17:40:32,298 - 619 - [INFO] Setting up a queue for results processing
+2022-04-24 17:40:32,313 - 619 - [INFO] Setting up results processor
+2022-04-24 17:40:32,316 - 621 - [INFO] Setting up File results / output processor
+2022-04-24 17:40:32,318 - 619 - [INFO] Attempting to load simulations from .
+2022-04-24 17:40:32,319 - 619 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-24 17:40:32,366 - 619 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-24 17:40:32,368 - 619 - [INFO] Current Number of Attack: 1
+2022-04-24 17:40:32,368 - 619 - [INFO] Monitoring enabled every 60 seconds
+2022-04-24 17:40:32,368 - 622 - [INFO] Setting up listener on TCP/2323
+2022-04-24 17:40:36,725 - 623 - [INFO] Setting up a queue for results processing
+2022-04-24 17:40:36,741 - 623 - [INFO] Setting up results processor
+2022-04-24 17:40:36,745 - 625 - [INFO] Setting up File results / output processor
+2022-04-24 17:40:36,747 - 623 - [INFO] Attempting to load simulations from .
+2022-04-24 17:40:36,748 - 623 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-24 17:40:36,794 - 623 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-24 17:40:36,796 - 623 - [INFO] Current Number of Attack: 1
+2022-04-24 17:40:36,797 - 623 - [INFO] Monitoring enabled every 60 seconds
+2022-04-24 17:40:36,798 - 626 - [INFO] Setting up listener on TCP/2323
+2022-04-24 17:41:02,183 - 627 - [INFO] Setting up a queue for results processing
+2022-04-24 17:41:02,212 - 627 - [INFO] Setting up results processor
+2022-04-24 17:41:02,217 - 629 - [INFO] Setting up File results / output processor
+2022-04-24 17:41:02,221 - 627 - [INFO] Attempting to load simulations from .
+2022-04-24 17:41:02,222 - 627 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-24 17:41:02,297 - 627 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-24 17:41:02,300 - 627 - [INFO] Current Number of Attack: 1
+2022-04-24 17:41:02,301 - 627 - [INFO] Monitoring enabled every 60 seconds
+2022-04-24 17:41:02,302 - 630 - [INFO] Setting up listener on TCP/2323
+2022-04-24 17:41:03,383 - 630 - [INFO] Received connection from 127.0.0.1:45300
+2022-04-24 17:41:22,116 - 630 - [INFO] Negotiation and login complete, dropping to "shell"
+2022-04-24 20:09:45,214 - 630 - [INFO] Client force disconnected!
+2022-04-24 20:09:45,229 - 630 - [INFO] Publishing results from interaction to queue
+2022-04-24 20:09:45,238 - 629 - [INFO] 1 interaction captures in the queue
+2022-04-24 20:10:35,439 - 965 - [INFO] Setting up a queue for results processing
+2022-04-24 20:10:35,455 - 965 - [INFO] Setting up results processor
+2022-04-24 20:10:35,461 - 965 - [INFO] Attempting to load simulations from .
+2022-04-24 20:10:35,461 - 967 - [INFO] Setting up File results / output processor
+2022-04-24 20:10:35,462 - 965 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-04-24 20:10:35,490 - 965 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-04-24 20:10:35,493 - 965 - [INFO] Current Number of Attack: 1
+2022-04-24 20:10:35,494 - 968 - [INFO] Setting up listener on TCP/2323
+2022-04-24 20:10:35,494 - 965 - [INFO] Monitoring enabled every 60 seconds
+2022-04-24 20:10:37,145 - 968 - [INFO] Received connection from 127.0.0.1:45356
+2022-04-24 20:10:40,117 - 968 - [INFO] Negotiation and login complete, dropping to "shell"

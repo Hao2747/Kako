@@ -1,0 +1,11 @@
+Simulaiton File: kako.yaml
+
+python3 kako-master --configuration-file ../sample/kako.yaml --simulation-path .
+python3 kako-master --simulation-path ./ --configuration-file ../sample/kako.yaml 
+
+Open another window: nc localhost 2323
+
+
+Debug Config:  {'logging': {'path': './'}, 'simulations': {'path': '.'}, 'results': {'processor': 'file', 'attributes': {'path': '/tmp/'}}, 'monitoring': {'enabled': True, 'interval': 60}}
+Debug Manifest:  {'name': 'Linux Generic Telnet Simulation', 'port': 2323, 'version': '0.1.0', 'protocol': 'telnet', 'server': {'banner': 'Busybox Login'}}
+Debug Sim:  {0: <Simulation(Simulation-2, started)>}
