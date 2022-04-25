@@ -163,19 +163,33 @@ class CommandInterpreter(object):
         TX packets 4114  bytes 8963416 (8.9 MB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0"""
         
-    def do_tiltleft(self, args=None):
+    def do_tiltLeft(self, args=None):
         ''' Implements Mirai expected processes. '''
         if args is None:
             args = [0]
         
         return f'camera tilted left {args[0]} degree'
     
-    def do_tiltright(self, args=None):
+    def do_tiltRight(self, args=None):
         ''' Implements Mirai expected processes. '''
         if args is None:
             args = [0]
         
         return f'camera tilted right {args[0]} degree'
+    
+    def do_getVideo(self, args=None):
+        ''' Implements Mirai expected processes. '''
+        if args is None:
+            args = [0]
+        
+        return 'Access Denied'
+    
+    def do_mkdir(self, args=None):
+        ''' Implements Mirai expected processes. '''
+        if args is None:
+            args = [0]
+        
+        return 'Command not found'
     
     def handle(self, commands):
         ''' Dispatches the input command to the relevant handler. '''
