@@ -120,9 +120,6 @@ def main(configuration_file, simulation_path):
                 configuration=configuration,
                 results=results
             )
-      
-
-            
         except AttributeError as err:
             log.error('Unable to load %s: %s', manifest['name'], err)
             continue
