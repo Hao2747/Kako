@@ -1,0 +1,6 @@
+Open one terminal, cd to src
+
+python3 kako-master --simulation-path ./ --configuration-file ../sample/kako.yaml 
+
+Open another window: nc localhost 2323
+
