@@ -8,7 +8,7 @@ from kako.simulation.server import error
 
 class CommandInterpreter(object):
     ''' Implements commands for an embedded BusyBox system (Linux). '''
-    version = 'Edimax IC-7113W v1.19.3 (2022-04-21 10:10:26 CST)'
+    version = 'BusyBox v1.19.3 (2013-11-01 10:10:26 CST)'
 
     def do_id(self, args=None):
         ''' Returns `id` command output. '''
@@ -141,56 +141,6 @@ class CommandInterpreter(object):
         process_list.append('  1   root      404     S      init')
         return ''.join(process_list)
 
-    def do_ifconfig(self, args=None):
-        if args is None:
-            args = []
-        
-        return """    eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 172.14.123.158  netmask 255.255.240.0  broadcast 172.25.207.255
-        inet6 fe80::215:5dff:fe69:f6fd  prefixlen 64  scopeid 0x20<link>
-        ether 00:15:5d:69:f6:fd  txqueuelen 1000  (Ethernet)
-        RX packets 4531  bytes 1121722 (1.1 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 254  bytes 35565 (35.5 KB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
-
-    lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
-        inet 127.0.0.1  netmask 255.0.0.0
-        inet6 ::1  prefixlen 128  scopeid 0x10<host>
-        loop  txqueuelen 1000  (Local Loopback)
-        RX packets 4114  bytes 8963416 (8.9 MB)
-        RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 4114  bytes 8963416 (8.9 MB)
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0"""
-        
-    def do_tiltLeft(self, args=None):
-        ''' Implements Mirai expected processes. '''
-        if args is None:
-            args = [0]
-        
-        return f'camera tilted left {args[0]} degree'
-    
-    def do_tiltRight(self, args=None):
-        ''' Implements Mirai expected processes. '''
-        if args is None:
-            args = [0]
-        
-        return f'camera tilted right {args[0]} degree'
-    
-    def do_getVideo(self, args=None):
-        ''' Implements Mirai expected processes. '''
-        if args is None:
-            args = [0]
-        
-        return 'Access Denied'
-    
-    def do_mkdir(self, args=None):
-        ''' Implements Mirai expected processes. '''
-        if args is None:
-            args = [0]
-        
-        return 'Command not found'
-    
     def handle(self, commands):
         ''' Dispatches the input command to the relevant handler. '''
         # Split commands on semicolon, in the case there are multiple commands

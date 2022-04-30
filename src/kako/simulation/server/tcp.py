@@ -15,7 +15,6 @@ class RequestHandler(socketserver.BaseRequestHandler):
     simulation = 'UNKNOWN'
     vulnerability = 'UNKNOWN'
     simulation_version = 'UNKNOWN'
-    
 
     def __init__(self, request, client_address, server):
         ''' Extends parent with additional SNS channel and logger. '''
@@ -25,7 +24,6 @@ class RequestHandler(socketserver.BaseRequestHandler):
         self.protocol = server.manifest['protocol']
         self.simulation = server.manifest['name']
         self.simulation_version = server.manifest['version']
-        self.input_string = ''
 
         # Results tracking.
         self.buffer = bytearray()
@@ -45,13 +43,7 @@ class RequestHandler(socketserver.BaseRequestHandler):
         self.buffer = bytearray(self.request.recv(length))
         if not self.buffer:
             raise error.ClientDisconnect()
-        input_char = self.buffer.decode()
 
-        if (input_char != '\n'):
-            self.input_string += input_char
-        else:
-            self.log.info("Attacker Entered: %s", self.input_string)
-            self.input_string = ''
         # Save the read data into the record buffer.
         self.record.extend(self.buffer)
 
