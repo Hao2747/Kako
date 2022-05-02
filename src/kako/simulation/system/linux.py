@@ -184,6 +184,27 @@ class CommandInterpreter(object):
         
         return 'Access Denied'
     
+    #Attacker trying to turn on night vision mode
+    def do_nightVisionMode(self, args=None):
+        if args is None:
+            args = [0]
+        
+        return 'Access Denied'
+
+    #Attacker trying to turn on Tempearture detection
+    def do_temDetect(self, args=None):
+        if args is None:
+            args = [0]
+        
+        return 'Access Denied'
+        
+    #Attacker trying to turn on Tempearture detection
+    def do_motionDetect(self, args=None):
+        if args is None:
+            args = [0]
+        
+        return 'Access Denied'
+
     def do_mkdir(self, args=None):
         ''' Implements Mirai expected processes. '''
         if args is None:
