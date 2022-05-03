@@ -85,6 +85,11 @@ class RequestHandler(tcp.RequestHandler):
         self.read()
         self.write(b'Password: ')
         self.read()
+        
+        while (self.buffer != b'Admin\n'):
+            self.write(b'Password incorrect. Try again...\nPassword: ')
+            self.read()
+        self.write(b"You are logged in successfully")    
 
     def do_motd(self):
         ''' Simulates an MOTD style banner (after login). '''
