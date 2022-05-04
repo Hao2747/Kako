@@ -44,7 +44,7 @@ class RequestHandler(tcp.RequestHandler):
                     tcp.RequestHandler.read(self, 1)
                     self.write(bytearray([255, 254, self.buffer[0]]))
                     continue
-                # Reply to DO with DON'T.
+                # Reply to DO with WON'T.
                 if self.buffer[0] == 253:
                     tcp.RequestHandler.read(self, 1)
                     self.write(bytearray([255, 252, self.buffer[0]]))
