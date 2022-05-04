@@ -1,6 +1,7 @@
 ''' Implements a file output / results processor for Kako. '''
 
 import os
+import time
 import logging
 import multiprocessing
 
@@ -20,12 +21,30 @@ class Processor(multiprocessing.Process):
             self.configuration['results']['attributes']['path'],
             'kako.json'
         )
+        self.ip_whilelist = self.configuration['alerts']['ip_whilelist']
+        self.time_window = self.configuration['alerts']['time_window']
+        self.max_count = self.configuration['alerts']['max_count']
+        self.freq_count = {}
 
     def write(self, payload):
         ''' Implements a helper to write the provided payload to file. '''
         with open(self.output, 'a') as hndl:
             hndl.write(payload)
             hndl.write('\r\n')
+
+    def alert(self, interaction):
+        ''' alert for ip outside the whitelist '''
+        if interaction.source_ip not in self.ip_whilelist:
+            self.write('WARNING: ### unknown IP address %s ###' % interaction.source_ip)
+        
+        ''' alert for frequent connections '''
+        if interaction.source_ip not in self.freq_count.keys():
+            self.freq_count[interaction.source_ip] = []
+        self.freq_count[interaction.source_ip].append(int(time.time()))
+        self.freq_count[interaction.source_ip][:] = [ts for ts in self.freq_count[interaction.source_ip] if int(time.time()) - ts < self.time_window]
+        # self.write('count %d' % len(self.freq_count[interaction.source_ip]))
+        if len(self.freq_count[interaction.source_ip]) > self.max_count:
+            self.write('WARNING: ### possible DOS from %s ###' % interaction.source_ip)
 
     def run(self):
         ''' Implements the main runable for the processor. '''
@@ -42,7 +61,8 @@ class Processor(multiprocessing.Process):
                 interaction = self.results.get()
                 self.log.debug('Attempting to write interaction to file')
                 try:
-                    self.write(interaction)
+                    self.write(interaction.toJSON())
+                    self.alert(interaction)
                 except (AttributeError, IOError, PermissionError):
                     self.log.error('Requeuing interaction, as write failed...')
                     self.results.put(interaction)

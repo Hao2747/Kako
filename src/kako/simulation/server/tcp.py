@@ -54,7 +54,7 @@ class RequestHandler(socketserver.BaseRequestHandler):
             capture=self.record.decode(errors='backslashreplace'),
             vulnerability=self.vulnerability,
             node=socket.gethostname(),
-            destination_ip='TODO',
+            destination_ip='',
             destination_port=self.port,
             source_ip=self.client_address[0],
             source_port=self.client_address[1],
@@ -64,7 +64,7 @@ class RequestHandler(socketserver.BaseRequestHandler):
 
         # Publish to results queue.
         self.log.info('Publishing results from interaction to queue')
-        self.server.results.put(msg.toJSON())
+        self.server.results.put(msg)
 
 
 class Server(socketserver.ThreadingTCPServer):
