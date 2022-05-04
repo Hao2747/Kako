@@ -127,7 +127,10 @@ class RequestHandler(tcp.RequestHandler):
             # Convert read byte array into a string and process.
             cmd = ''.join(map(chr, self.buffer)).strip()
             try:
-                self.write(self.interpreter.handle(cmd).encode())
+                output, sensitive = self.interpreter.handle(cmd)
+                self.write(output.encode())
+                if sensitive:
+                    self.capture(True)
             except error.ClientCommandExit as _:
                 break
 

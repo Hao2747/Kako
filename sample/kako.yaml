@@ -8,13 +8,18 @@ simulations:
 results:
   processor: file
   attributes:
-    path: '/tmp/'
+    path: './'
 
 # results:
 #   processor: sns
 #   attributes:
 #     region: 'us-west-2'
 #     topic: 'arn:aws:sns:<region>:<account>:<topic>'
+
+alerts:
+  ip_whilelist: ['127.0.0.1']
+  time_window: 10
+  max_count: 2
 
 monitoring:
   enabled: True

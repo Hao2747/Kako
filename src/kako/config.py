@@ -52,6 +52,14 @@ SCHEMA = {
             SCHEMA_RESULTS_SNS,
             SCHEMA_RESULTS_FILE
         ]
+    },
+    'alerts': {
+        'type': 'dict',
+        'schema': {
+            'ip_whilelist': {'type': 'list', 'schema': {'type': 'string'}},
+            'time_window': {'type': 'integer'},
+            'max_count': {'type': 'integer'}
+        }
     }
 }
 
