@@ -80,18 +80,23 @@ class RequestHandler(tcp.RequestHandler):
     def do_login(self):
         ''' Simulates a login prompt and captures the credentials. '''
         self.write(self.banner.encode())
-        self.write(b'\r\n\r\n')
-        self.write(b'login as: ')
+        self.write(b'\r\n')
+        self.write(b"Trying 172.14.123.158...\n")
+        self.write(b"\r\nWelcome to Edimax Telnet Service\r\n\r\n")
+        self.write(b"Escape character is '^]'.\r\n\r\n")
+        
+        self.write(b'Username:')
         self.read()
-        name = self.buffer.decode().rstrip()
-        self.write("{0}@172.14.123.158's password:".format(name).encode())
+        self.prompt = self.buffer.decode().rstrip() + ">"
+
+        self.write(b"Password:")
         self.read()
         
+        
         while (self.buffer != b'Admin\n'):
-            self.write(b'Permission denied, please try again.\n')
-            self.write("{0}@172.14.123.158's password:".format(name).encode())
+            self.write(b"Password:")
             self.read()
-        self.write(b"You are logged in successfully")    
+        
 
     def do_motd(self):
         ''' Simulates an MOTD style banner (after login). '''

@@ -263,3 +263,181 @@
 2022-05-03 20:10:36,847 - 4222 - [INFO] Setting up listener on TCP/2323
 2022-05-03 20:10:40,409 - 4222 - [INFO] Received connection from 127.0.0.1:58212
 2022-05-03 20:10:56,073 - 4222 - [INFO] Negotiation and login complete, dropping to "shell"
+2022-05-04 10:53:27,611 - 4222 - [INFO] Client force disconnected!
+2022-05-04 10:53:27,612 - 4222 - [INFO] Publishing results from interaction to queue
+2022-05-04 10:53:27,613 - 4221 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:26:54,922 - 5904 - [INFO] Setting up a queue for results processing
+2022-05-04 13:26:54,941 - 5904 - [INFO] Setting up results processor
+2022-05-04 13:26:54,945 - 5916 - [INFO] Setting up File results / output processor
+2022-05-04 13:26:54,947 - 5904 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:26:54,948 - 5904 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:26:55,002 - 5904 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:26:55,005 - 5904 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:26:55,007 - 5917 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:27:00,285 - 5917 - [INFO] Received connection from 127.0.0.1:58590
+2022-05-04 13:28:00,299 - 5917 - [INFO] Publishing results from interaction to queue
+2022-05-04 13:28:00,301 - 5916 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:28:00,301 - 5917 - [INFO] Client force disconnected.
+2022-05-04 13:28:21,206 - 6088 - [INFO] Setting up a queue for results processing
+2022-05-04 13:28:21,223 - 6088 - [INFO] Setting up results processor
+2022-05-04 13:28:21,227 - 6100 - [INFO] Setting up File results / output processor
+2022-05-04 13:28:21,230 - 6088 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:28:21,231 - 6088 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:28:21,280 - 6088 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:28:21,284 - 6088 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:28:21,286 - 6101 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:28:22,201 - 6101 - [INFO] Received connection from 127.0.0.1:58600
+2022-05-04 13:28:38,148 - 6101 - [INFO] Publishing results from interaction to queue
+2022-05-04 13:28:38,149 - 6100 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:28:38,150 - 6101 - [INFO] Client force disconnected.
+2022-05-04 13:28:50,579 - 6197 - [INFO] Setting up a queue for results processing
+2022-05-04 13:28:50,598 - 6197 - [INFO] Setting up results processor
+2022-05-04 13:28:50,602 - 6221 - [INFO] Setting up File results / output processor
+2022-05-04 13:28:50,605 - 6197 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:28:50,606 - 6197 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:28:50,650 - 6197 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:28:50,655 - 6197 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:28:50,655 - 6222 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:28:51,860 - 6222 - [INFO] Received connection from 127.0.0.1:58608
+2022-05-04 13:31:07,208 - 6222 - [INFO] Publishing results from interaction to queue
+2022-05-04 13:31:07,209 - 6221 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:31:07,210 - 6222 - [INFO] Client force disconnected.
+2022-05-04 13:31:11,842 - 6347 - [INFO] Setting up a queue for results processing
+2022-05-04 13:31:11,862 - 6347 - [INFO] Setting up results processor
+2022-05-04 13:31:11,867 - 6359 - [INFO] Setting up File results / output processor
+2022-05-04 13:31:11,869 - 6347 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:31:11,870 - 6347 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:31:11,928 - 6347 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:31:11,931 - 6347 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:31:11,933 - 6360 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:31:13,147 - 6360 - [INFO] Received connection from 127.0.0.1:58628
+2022-05-04 13:31:37,865 - 6360 - [INFO] Negotiation and login complete, dropping to "shell"
+2022-05-04 13:32:31,478 - 6360 - [INFO] Client force disconnected!
+2022-05-04 13:32:31,480 - 6360 - [INFO] Publishing results from interaction to queue
+2022-05-04 13:32:31,482 - 6359 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:32:36,663 - 6492 - [INFO] Setting up a queue for results processing
+2022-05-04 13:32:36,682 - 6492 - [INFO] Setting up results processor
+2022-05-04 13:32:36,686 - 6504 - [INFO] Setting up File results / output processor
+2022-05-04 13:32:36,691 - 6492 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:32:36,692 - 6492 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:32:36,754 - 6492 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:32:36,756 - 6492 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:32:36,758 - 6505 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:32:37,820 - 6505 - [INFO] Received connection from 127.0.0.1:58642
+2022-05-04 13:33:44,795 - 6505 - [INFO] Publishing results from interaction to queue
+2022-05-04 13:33:44,797 - 6504 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:33:44,798 - 6505 - [INFO] Client force disconnected.
+2022-05-04 13:33:51,969 - 6615 - [INFO] Setting up a queue for results processing
+2022-05-04 13:33:51,989 - 6615 - [INFO] Setting up results processor
+2022-05-04 13:33:51,993 - 6639 - [INFO] Setting up File results / output processor
+2022-05-04 13:33:51,996 - 6615 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:33:51,997 - 6615 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:33:52,047 - 6615 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:33:52,050 - 6615 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:33:52,051 - 6640 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:33:54,436 - 6640 - [INFO] Received connection from 127.0.0.1:58656
+2022-05-04 13:34:28,940 - 6640 - [INFO] Negotiation and login complete, dropping to "shell"
+2022-05-04 13:34:58,040 - 6640 - [INFO] Client force disconnected!
+2022-05-04 13:34:58,041 - 6640 - [INFO] Publishing results from interaction to queue
+2022-05-04 13:34:58,042 - 6639 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:35:07,187 - 6796 - [INFO] Setting up a queue for results processing
+2022-05-04 13:35:07,207 - 6796 - [INFO] Setting up results processor
+2022-05-04 13:35:07,212 - 6808 - [INFO] Setting up File results / output processor
+2022-05-04 13:35:07,216 - 6796 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:35:07,217 - 6796 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:35:07,270 - 6796 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:35:07,273 - 6796 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:35:07,275 - 6809 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:35:08,298 - 6809 - [INFO] Received connection from 127.0.0.1:58668
+2022-05-04 13:35:38,425 - 6809 - [INFO] Publishing results from interaction to queue
+2022-05-04 13:35:38,427 - 6808 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:35:38,428 - 6809 - [INFO] Client force disconnected.
+2022-05-04 13:35:45,715 - 6953 - [INFO] Setting up a queue for results processing
+2022-05-04 13:35:45,734 - 6953 - [INFO] Setting up results processor
+2022-05-04 13:35:45,740 - 6977 - [INFO] Setting up File results / output processor
+2022-05-04 13:35:45,744 - 6953 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:35:45,745 - 6953 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:35:45,818 - 6953 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:35:45,823 - 6953 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:35:45,825 - 6978 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:35:47,032 - 6978 - [INFO] Received connection from 127.0.0.1:58676
+2022-05-04 13:36:00,343 - 6978 - [INFO] Negotiation and login complete, dropping to "shell"
+2022-05-04 13:36:25,423 - 6978 - [INFO] Client force disconnected!
+2022-05-04 13:36:25,425 - 6978 - [INFO] Publishing results from interaction to queue
+2022-05-04 13:36:25,427 - 6977 - [INFO] 1 interaction captures in the queue
+2022-05-04 13:36:32,469 - 7106 - [INFO] Setting up a queue for results processing
+2022-05-04 13:36:32,489 - 7106 - [INFO] Setting up results processor
+2022-05-04 13:36:32,493 - 7130 - [INFO] Setting up File results / output processor
+2022-05-04 13:36:32,496 - 7106 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:36:32,497 - 7106 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:36:32,548 - 7106 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:36:32,550 - 7106 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:36:32,552 - 7131 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:36:33,483 - 7131 - [INFO] Received connection from 127.0.0.1:58686
+2022-05-04 13:37:16,473 - 7277 - [INFO] Setting up a queue for results processing
+2022-05-04 13:37:16,515 - 7277 - [INFO] Setting up results processor
+2022-05-04 13:37:16,523 - 7306 - [INFO] Setting up File results / output processor
+2022-05-04 13:37:16,529 - 7277 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:37:16,531 - 7277 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:37:16,635 - 7277 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:37:16,640 - 7277 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:37:16,643 - 7307 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:37:42,026 - 7440 - [INFO] Setting up a queue for results processing
+2022-05-04 13:37:42,043 - 7440 - [INFO] Setting up results processor
+2022-05-04 13:37:42,047 - 7452 - [INFO] Setting up File results / output processor
+2022-05-04 13:37:42,051 - 7440 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:37:42,052 - 7440 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:37:42,097 - 7440 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:37:42,100 - 7440 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:37:42,101 - 7453 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:37:44,981 - 7471 - [INFO] Setting up a queue for results processing
+2022-05-04 13:37:44,996 - 7471 - [INFO] Setting up results processor
+2022-05-04 13:37:44,998 - 7473 - [INFO] Setting up File results / output processor
+2022-05-04 13:37:45,000 - 7471 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:37:45,001 - 7471 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:37:45,043 - 7471 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:37:45,045 - 7471 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:37:45,046 - 7483 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:38:16,555 - 7563 - [INFO] Setting up a queue for results processing
+2022-05-04 13:38:16,577 - 7563 - [INFO] Setting up results processor
+2022-05-04 13:38:16,581 - 7586 - [INFO] Setting up File results / output processor
+2022-05-04 13:38:16,587 - 7563 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:38:16,588 - 7563 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:38:16,645 - 7563 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:38:16,648 - 7563 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:38:16,650 - 7587 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:38:19,355 - 7587 - [INFO] Received connection from 127.0.0.1:58698
+2022-05-04 13:38:55,336 - 7743 - [INFO] Setting up a queue for results processing
+2022-05-04 13:38:55,354 - 7743 - [INFO] Setting up results processor
+2022-05-04 13:38:55,358 - 7763 - [INFO] Setting up File results / output processor
+2022-05-04 13:38:55,361 - 7743 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:38:55,362 - 7743 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:38:55,412 - 7743 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:38:55,415 - 7743 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:38:55,416 - 7764 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:39:09,586 - 7857 - [INFO] Setting up a queue for results processing
+2022-05-04 13:39:09,606 - 7857 - [INFO] Setting up results processor
+2022-05-04 13:39:09,610 - 7869 - [INFO] Setting up File results / output processor
+2022-05-04 13:39:09,612 - 7857 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:39:09,613 - 7857 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:39:09,648 - 7857 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:39:09,651 - 7857 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:39:09,652 - 7870 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:39:30,367 - 8014 - [INFO] Setting up a queue for results processing
+2022-05-04 13:39:30,407 - 8014 - [INFO] Setting up results processor
+2022-05-04 13:39:30,415 - 8034 - [INFO] Setting up File results / output processor
+2022-05-04 13:39:30,419 - 8014 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:39:30,421 - 8014 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:39:30,526 - 8014 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:39:30,531 - 8014 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:39:30,534 - 8035 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:39:48,633 - 8112 - [INFO] Setting up a queue for results processing
+2022-05-04 13:39:48,651 - 8112 - [INFO] Setting up results processor
+2022-05-04 13:39:48,655 - 8127 - [INFO] Setting up File results / output processor
+2022-05-04 13:39:48,659 - 8112 - [INFO] Attempting to load simulations from ./
+2022-05-04 13:39:48,660 - 8112 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 13:39:48,711 - 8112 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 13:39:48,713 - 8112 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 13:39:48,715 - 8133 - [INFO] Setting up listener on TCP/2323
+2022-05-04 13:39:49,881 - 8133 - [INFO] Received connection from 127.0.0.1:58716
+2022-05-04 13:40:01,305 - 8133 - [INFO] Negotiation and login complete, dropping to "shell"
