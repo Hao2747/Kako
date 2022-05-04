@@ -81,13 +81,15 @@ class RequestHandler(tcp.RequestHandler):
         ''' Simulates a login prompt and captures the credentials. '''
         self.write(self.banner.encode())
         self.write(b'\r\n\r\n')
-        self.write('{0} login: '.format(self.hostname).encode())
+        self.write(b'login as: ')
         self.read()
-        self.write(b'Password: ')
+        name = self.buffer.decode().rstrip()
+        self.write("{0}@172.14.123.158's password:".format(name).encode())
         self.read()
         
         while (self.buffer != b'Admin\n'):
-            self.write(b'Password incorrect. Try again...\nPassword: ')
+            self.write(b'Permission denied, please try again.\n')
+            self.write("{0}@172.14.123.158's password:".format(name).encode())
             self.read()
         self.write(b"You are logged in successfully")    
 
