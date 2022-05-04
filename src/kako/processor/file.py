@@ -33,6 +33,11 @@ class Processor(multiprocessing.Process):
             hndl.write('\r\n')
 
     def alert(self, interaction):
+        ''' sensitive action '''
+        if interaction.sensitive:
+            self.write('WARNING: ### %s attempts to get data ###' % interaction.source_ip)
+            return
+
         ''' alert for ip outside the whitelist '''
         if interaction.source_ip not in self.ip_whilelist:
             self.write('WARNING: ### unknown IP address %s ###' % interaction.source_ip)

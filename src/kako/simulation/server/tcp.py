@@ -47,7 +47,7 @@ class RequestHandler(socketserver.BaseRequestHandler):
         # Save the read data into the record buffer.
         self.record.extend(self.buffer)
 
-    def capture(self):
+    def capture(self, sensitive=False):
         ''' Implements 'capture' functionality for identified requests. '''
         msg = messaging.capture.Capture(
             timestamp=int(time.time()),
@@ -59,7 +59,8 @@ class RequestHandler(socketserver.BaseRequestHandler):
             source_ip=self.client_address[0],
             source_port=self.client_address[1],
             simulation_name=self.simulation,
-            simulation_version=self.simulation_version
+            simulation_version=self.simulation_version,
+            sensitive=sensitive
         )
 
         # Publish to results queue.

@@ -10,7 +10,7 @@ class Capture(object):
     def __init__(self=None, destination_port=None, destination_ip=None,
                  source_ip=None, source_port=None, simulation_name=None,
                  capture=None, node=None, simulation_version=None,
-                 timestamp=None, vulnerability=None):
+                 timestamp=None, vulnerability=None, sensitive=False):
         ''' Generates an object for this capture. '''
         self.node = node
         self.source_ip = source_ip
@@ -21,6 +21,7 @@ class Capture(object):
         self.simulation_name = simulation_name
         self.destination_port = destination_port
         self.simulation_version = simulation_version
+        self.sensitive = sensitive
         self.capture = base64.b64encode(''.join(capture).encode()).decode()
 
     def toJSON(self):

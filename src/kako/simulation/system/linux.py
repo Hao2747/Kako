@@ -168,14 +168,14 @@ class CommandInterpreter(object):
         if args is None:
             args = [0]
         
-        return f'camera tilted left {args[0]} degree'
+        return 'camera tilted left {args[0]} degree'
     
     def do_tiltRight(self, args=None):
         ''' Implements Mirai expected processes. '''
         if args is None:
             args = [0]
         
-        return f'camera tilted right {args[0]} degree'
+        return 'camera tilted right {args[0]} degree'
     
     def do_getVideo(self, args=None):
         ''' Implements Mirai expected processes. '''
@@ -217,6 +217,7 @@ class CommandInterpreter(object):
         # Split commands on semicolon, in the case there are multiple commands
         # on one line.
         output = ''
+        sensitive = False
         for command in commands.split(';'):
             # Split command from arguments, and ensure we're left with at least
             # a command to execute.
@@ -226,6 +227,7 @@ class CommandInterpreter(object):
 
             # Remove full path from command - if present - and attempt to call.
             command = arguments[0].split('/')[-1]
+            sensitive = command == 'getVideo'
             arguments.pop(0)
             try:
                 ref = getattr(self, "do_{0}".format(command))
@@ -241,4 +243,4 @@ class CommandInterpreter(object):
             else:
                 output += '\r\n'
 
-        return output
+        return output, sensitive
