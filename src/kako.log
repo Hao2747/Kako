@@ -441,3 +441,19 @@
 2022-05-04 13:39:48,715 - 8133 - [INFO] Setting up listener on TCP/2323
 2022-05-04 13:39:49,881 - 8133 - [INFO] Received connection from 127.0.0.1:58716
 2022-05-04 13:40:01,305 - 8133 - [INFO] Negotiation and login complete, dropping to "shell"
+2022-05-04 14:18:54,588 - 8133 - [INFO] Client force disconnected!
+2022-05-04 14:18:54,589 - 8133 - [INFO] Publishing results from interaction to queue
+2022-05-04 14:18:54,590 - 8127 - [INFO] 1 interaction captures in the queue
+2022-05-04 14:22:07,376 - 8324 - [INFO] Setting up a queue for results processing
+2022-05-04 14:22:07,397 - 8324 - [INFO] Setting up results processor
+2022-05-04 14:22:07,401 - 8336 - [INFO] Setting up File results / output processor
+2022-05-04 14:22:07,404 - 8324 - [INFO] Attempting to load simulations from ./
+2022-05-04 14:22:07,405 - 8324 - [INFO] Loading simulation 1 of 1 from manifest: ./000-LinuxTelnet.yaml
+2022-05-04 14:22:07,450 - 8324 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2022-05-04 14:22:07,453 - 8324 - [INFO] Monitoring enabled every 60 seconds
+2022-05-04 14:22:07,454 - 8337 - [INFO] Setting up listener on TCP/2323
+2022-05-04 14:22:09,104 - 8337 - [INFO] Received connection from 127.0.0.1:58738
+2022-05-04 14:22:12,883 - 8337 - [INFO] Negotiation and login complete, dropping to "shell"
+2022-05-04 16:09:30,485 - 8337 - [INFO] Client force disconnected!
+2022-05-04 16:09:30,485 - 8337 - [INFO] Publishing results from interaction to queue
+2022-05-04 16:09:30,486 - 8336 - [INFO] 1 interaction captures in the queue
